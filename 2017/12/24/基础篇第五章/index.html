@@ -108,6 +108,12 @@
         
             <!-- 文章页标签  -->
             
+                <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-href = Linux>Linux</a>
+    
+</div>
+            
             <div class="post-intro-meta">
                 <span class="post-intro-calander iconfont-archer">&#xe676;</span>
                 <span class="post-intro-time">2017/12/24</span>
@@ -181,7 +187,9 @@
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        <h1 id="Linux基础"><a href="#Linux基础" class="headerlink" title="Linux基础"></a>Linux基础</h1><h2 id="man-page"><a href="#man-page" class="headerlink" title="man page"></a>man page</h2><ul>
+        <h1>Linux基础</h1>
+<h2>man page</h2>
+<ul>
 <li><code>man【option】</code>可查看该指令的所有参数及用法</li>
 <li>进入<code>man</code>命令后，可以按空格键往下翻页，可以按q来离开man的环境</li>
 <li><code>【option（1）】</code>代表“一般用户可以使用的命令”的意思，其他意义如下</li>
@@ -237,9 +245,12 @@
 <li>关键词搜索，任何时候输入【/word】来主动向下搜寻关键词，输入【？word】来主动向上搜寻关键词；输入n来进行下一次搜寻，输入N来进行反向搜寻；</li>
 <li>【option tab tab】可查询出所有系统中带option内容的指令</li>
 </ul>
-<h2 id="info-page"><a href="#info-page" class="headerlink" title="info page"></a>info page</h2><ul>
+<hr>
+<h2>info page</h2>
+<ul>
 <li>info page则是将文件数据拆成一个一个的段落，每个段落用自己的页面来撰写， 并且在各个页面中还有类似网页的『超链接』来跳到各不同的页面中，每个独立的页面也被称为一个节点(node)</li>
-<li>第一行数据意思为：<ul>
+<li>第一行数据意思为：
+<ul>
 <li>File：代表这个info page的数据是来自info.info文件所提供的；</li>
 <li>Node：代表目前的这个页面是属于Top节点。 意思是info.info内含有很多信息，而Top仅是info.info文件内的一个节点内容而已；</li>
 <li>Next：下一个节点的名称为Getting Started，你也可以按『N』到下个节点去；</li>
@@ -249,13 +260,19 @@
 </li>
 <li>我们可以使用上下左右按键来将光标移动到该文字或者『 * 』上面，按下Enter， 就可以前往该小节了！另外，也可以按下[Tab]按键，就可以快速的将光标在上表的画面中的node间移动</li>
 </ul>
-<h2 id="usr-share-doc"><a href="#usr-share-doc" class="headerlink" title="/usr/share/doc."></a>/usr/share/doc.</h2><ul>
+<hr>
+<h2>/usr/share/doc.</h2>
+<ul>
 <li>如果你想要架设一些其他的服务，或想要利用一整组软件来达成某项功能时，请赶快到/usr/share/doc 底下查一查有没有该服务的说明文档</li>
 </ul>
-<h2 id="数据同步写入磁盘"><a href="#数据同步写入磁盘" class="headerlink" title="数据同步写入磁盘"></a>数据同步写入磁盘</h2><ul>
+<hr>
+<h2>数据同步写入磁盘</h2>
+<ul>
 <li>sync</li>
 </ul>
-<h2 id="惯用的关机命令：shutdown"><a href="#惯用的关机命令：shutdown" class="headerlink" title="惯用的关机命令：shutdown"></a>惯用的关机命令：shutdown</h2><ul>
+<hr>
+<h2>惯用的关机命令：shutdown</h2>
+<ul>
 <li>-t sec ： -t 后面加秒数，亦即『过几秒后关机』的意思</li>
 <li>-k     ： 不要真的关机，只是发送警告信息出去！</li>
 <li>-r     ： 在将系统的服务停掉之后就重新启动(常用)</li>
@@ -265,7 +282,10 @@
 <li>-F     ： 系统重新启动之后，强制进行 fsck 的磁盘检查</li>
 <li>-c     ： 取消已经在进行的 shutdown 命令内容。</li>
 </ul>
-<h2 id="重新启动，关机：reboot，halt，poweroff"><a href="#重新启动，关机：reboot，halt，poweroff" class="headerlink" title="重新启动，关机：reboot，halt，poweroff"></a>重新启动，关机：reboot，halt，poweroff</h2><h2 id="切换运行等级：init"><a href="#切换运行等级：init" class="headerlink" title="切换运行等级：init"></a>切换运行等级：init</h2>
+<hr>
+<h2>重新启动，关机：reboot，halt，poweroff</h2>
+<h2>切换运行等级：init</h2>
+
     </article>
     <!-- 前后页  -->
     <ul class="post-pager">
@@ -342,7 +362,7 @@
         <div class="toc-catalog">
             <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
         </div>
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux基础"><span class="toc-number">1.</span> <span class="toc-text">Linux基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#man-page"><span class="toc-number">1.1.</span> <span class="toc-text">man page</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#info-page"><span class="toc-number">1.2.</span> <span class="toc-text">info page</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#usr-share-doc"><span class="toc-number">1.3.</span> <span class="toc-text">/usr/share/doc.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数据同步写入磁盘"><span class="toc-number">1.4.</span> <span class="toc-text">数据同步写入磁盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#惯用的关机命令：shutdown"><span class="toc-number">1.5.</span> <span class="toc-text">惯用的关机命令：shutdown</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#重新启动，关机：reboot，halt，poweroff"><span class="toc-number">1.6.</span> <span class="toc-text">重新启动，关机：reboot，halt，poweroff</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#切换运行等级：init"><span class="toc-number">1.7.</span> <span class="toc-text">切换运行等级：init</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">Linux基础</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.1.</span> <span class="toc-text">man page</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.2.</span> <span class="toc-text">info page</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.3.</span> <span class="toc-text">/usr/share/doc.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.4.</span> <span class="toc-text">数据同步写入磁盘</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.5.</span> <span class="toc-text">惯用的关机命令：shutdown</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.6.</span> <span class="toc-text">重新启动，关机：reboot，halt，poweroff</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.7.</span> <span class="toc-text">切换运行等级：init</span></a></li></ol></li></ol>
     </div>
     
     <div class="back-top">&#xe639;</div>
@@ -386,18 +406,20 @@
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">12/24</span><a class="archive-post-title" href= "/2017/12/24/学习计划/" >学习计划</a>
+            <span class="archive-post-date">12/24</span><a class="archive-post-title" href= "/2017/12/24/基础篇第五章/" >基础篇第五章</a>
         </li>
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">12/24</span><a class="archive-post-title" href= "/2017/12/24/基础篇第五章/" >基础篇第五章</a>
+            <span class="archive-post-date">12/24</span><a class="archive-post-title" href= "/2017/12/24/学习计划/" >学习计划</a>
         </li>
     
     </div>
   </div>
         <div class="sidebar-tags">
     <div class="sidebar-tags-name">
+    
+        <span class="sidebar-tag-name"><a href= "#">Linux</a></span>
     
     </div>
     <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
