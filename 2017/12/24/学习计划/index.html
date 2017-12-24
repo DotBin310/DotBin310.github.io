@@ -299,6 +299,23 @@
 <!-- City版安装代码已完成 -->
     
     
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id: "学习计划", // 可选。默认为 location.href
+        owner: 'DotBin310',
+        repo: 'DotBin310.github.io',
+        oauth: {
+            client_id: '7ef5a7b9348f0fe7e326',
+            client_secret: '2194895b1598f6e3810761669655092cbba5aaea',
+        },
+    })
+    gitment.render('container')
+
+</script>
+
     <!--PC版-->
 
     <!--PC版-->
