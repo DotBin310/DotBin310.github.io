@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dotbin&#39;s Blog</title>
+  
+  <subtitle>我们时间有限的肉身不能处理每日生活和想象中出现的无限选择。时间太少，想做的太多。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://dotbin310.com/"/>
+  <updated>2017-12-24T06:25:26.667Z</updated>
+  <id>http://dotbin310.com/</id>
+  
+  <author>
+    <name>Dotbin Tung</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一篇博客</title>
+    <link href="http://dotbin310.com/2017/12/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://dotbin310.com/2017/12/24/我的第一篇博客/</id>
+    <published>2017-12-24T05:58:58.000Z</published>
+    <updated>2017-12-24T06:25:26.667Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello,欢迎来到我的博客。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hello,欢迎来到我的博客。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
